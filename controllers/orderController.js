@@ -79,40 +79,102 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.kanisteri = catchAsync(async (req, res, next) => {
-  const startDate = new Date("2024-10-10T10:01:06.858Z");
-  const result = await Order.aggregate([
-    // 1. trazimo sve ordere vece ili iste od startDate
-    {
-      $match: {
-        createdAt: { $gte: startDate },
+// exports.kanisteri = catchAsync(async (req, res, next) => {
+//   const startDate = new Date("2024-10-10T10:01:06.858Z");
+//   const result = await Order.aggregate([
+//     // 1. trazimo sve ordere vece ili iste od startDate
+//     {
+//       $match: {
+//         createdAt: { $gte: startDate },
+//       },
+//     },
+//     //2. povezivanje svake narudzbe sa korisnicima tj consumersima
+//     {
+//       $lookup: {
+//         from: "consumers",
+//         localField: "consumerId",
+//         foreignField: "_id",
+//         as: "consumer",
+//       },
+//     },
+//     {
+//       $unwind: "$consumer",
+//     },
+//     {
+//       $group: {
+//         _id: "$consumerId", // pravi grupu po korisniku
+//         totalGallons: { $sum: "$gallonsTaken" }, // sabira kanistere
+//         firstName: { $first: "$consumer.firstName" },
+//         lastName: { $first: "$consumer.lastName" },
+//         address: { $first: "$consumer.address" },
+//         phoneNumber: { $first: "$consumer.phoneNumber" },
+//         gallonBalance: { $first: "$consumer.gallonBalance" },
+//       },
+//     },
+//     {
+//       $sort: {
+//         totalGallons: -1,
+//       },
+//     },
+//   ]);
+//   res.status(200).json({
+//     status: "success",
+//     data: result,
+//   });
+// });
+exports.getConsumersWithGallonsAfterDate = catchAsync(
+  async (req, res, next) => {
+    const startDate = new Date("2024-10-11T19:00:00.858Z");
+
+    const result = await Consumer.aggregate([
+      // 1. trazimo sve korisnike i povezujemo sa orderima
+      {
+        $lookup: {
+          from: "orders",
+          localField: "_id", // user id
+          foreignField: "consumerId", // id usera u orderu
+          as: "orders", // smještamo u orders
+        },
       },
-    },
-    //2. povezivanje svake narudzbe sa korisnicima tj consumersima
-    {
-      $lookup: {
-        from: "consumers",
-        localField: "consumerId",
-        foreignField: "_id",
-        as: "consumer",
+      // 2. Razbijanje niza u objekat
+      {
+        $unwind: {
+          path: "$orders",
+          preserveNullAndEmptyArrays: true, // čuvamo potrošače koji nemaju ordere
+        },
       },
-    },
-    {
-      $unwind: "$consumer",
-    },
-    {
-      $group: {
-        _id: "$consumerId", // Grupisanje po korisniku
-        totalGallons: { $sum: "$gallonsTaken" }, // Saberi broj kanistera
-        firstName: { $first: "$consumer.firstName" }, // Uzimanje imena korisnika
-        lastName: { $first: "$consumer.lastName" }, // Prezime korisnika
-        address: { $first: "$consumer.address" }, // Adresa korisnika
-        phoneNumber: { $first: "$consumer.phoneNumber" }, // Broj telefona korisnika
+      // 3. Grupisanje po potrošaču
+      {
+        $group: {
+          _id: "$_id", // Grupiše po ID-u potrošača
+          firstName: { $first: "$firstName" },
+          lastName: { $first: "$lastName" },
+          address: { $first: "$address" },
+          phoneNumber: { $first: "$phoneNumber" },
+          // 4. Sumiramo kanistere samo ako je narudžba nakon datuma, inače 0
+          orderedGallons: {
+            $sum: {
+              $cond: {
+                if: { $gte: ["$orders.createdAt", startDate] },
+                then: { $ifNull: ["$orders.gallonsTaken", 0] },
+                else: 0,
+              },
+            },
+          },
+          gallonBalance: { $first: "$gallonBalance" },
+        },
       },
-    },
-  ]);
-  res.status(200).json({
-    status: "success",
-    data: result,
-  });
-});
+      // 5. Sortiranje rezultata po ukupnim kanisterima rastuće
+      {
+        $sort: {
+          orderedGallons: 1, // rastuće sortiranje
+        },
+      },
+    ]);
+
+    res.status(200).json({
+      status: "success",
+      data: result,
+    });
+  }
+);

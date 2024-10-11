@@ -11,7 +11,13 @@ router
     authController.restrictTo("driver", "superAdmin"),
     orderController.createOrder
   );
-router.route("/kanister").get(orderController.kanisteri);
+router
+  .route("/get-consumers-with-gallons-after-date")
+  .get(
+    authController.protect,
+    authController.restrictTo("driver", "superAdmin"),
+    orderController.getConsumersWithGallonsAfterDate
+  );
 
 router
   .route("/:id")
