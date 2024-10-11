@@ -3,59 +3,62 @@ const validator = require("validator");
 const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 
-const userSchema = new mongoose.Schema({
-  firstName: {
-    type: String,
-    required: true,
-  },
-  lastName: {
-    type: String,
-    required: true,
-  },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-    lowercase: true,
-    validate: [validator.isEmail, "Neispravna email adresa"],
-  },
-  role: {
-    type: String,
-    enum: ["user", "driver", "superAdmin"],
-    default: "user",
-  },
-  phoneNumber: {
-    type: String,
-    required: true,
-    unique: true,
-    validate: {
-      validator: function (el) {
-        return validator.isMobilePhone(el, "bs-BA");
-      },
-      message: "Neispravan broj telefona",
+const userSchema = new mongoose.Schema(
+  {
+    firstName: {
+      type: String,
+      required: true,
     },
-  },
-  password: {
-    type: String,
-    required: true,
-    minlength: [8, "Lozinka mora sadržavati 8 ili više karaktera"],
-    select: false,
-  },
-  passwordConfirm: {
-    type: String,
-    required: true,
-    // Validate radi samo na sava, zato ne koristimo nikada findByIdAndUpdate i middleware "save" ne bi radio
-    validate: {
-      validator: function (el) {
-        return el === this.password;
-      },
-      message: "Lozinka se ne podudara",
+    lastName: {
+      type: String,
+      required: true,
     },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+      validate: [validator.isEmail, "Neispravna email adresa"],
+    },
+    role: {
+      type: String,
+      enum: ["user", "driver", "superAdmin"],
+      default: "user",
+    },
+    phoneNumber: {
+      type: String,
+      required: true,
+      unique: true,
+      validate: {
+        validator: function (el) {
+          return validator.isMobilePhone(el, "bs-BA");
+        },
+        message: "Neispravan broj telefona",
+      },
+    },
+    password: {
+      type: String,
+      required: true,
+      minlength: [8, "Lozinka mora sadržavati 8 ili više karaktera"],
+      select: false,
+    },
+    passwordConfirm: {
+      type: String,
+      required: true,
+      // Validate radi samo na sava, zato ne koristimo nikada findByIdAndUpdate i middleware "save" ne bi radio
+      validate: {
+        validator: function (el) {
+          return el === this.password;
+        },
+        message: "Lozinka se ne podudara",
+      },
+    },
+    passwordChangedAt: Date,
+    passwordResetToken: String,
+    passwordResetExpires: Date,
   },
-  passwordChangedAt: Date,
-  passwordResetToken: String,
-  passwordResetExpires: Date,
-});
+  { timestamps: true }
+);
 
 userSchema.pre("save", async function (next) {
   // Only run this function if password was actually modified
