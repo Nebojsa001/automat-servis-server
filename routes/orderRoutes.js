@@ -5,14 +5,17 @@ const router = express.Router();
 
 router
   .route("/")
-  .get(authController.protect, orderController.getAllOrders)
+  .get(
+    //authController.protect,
+    orderController.getAllOrders
+  )
   .post(
     authController.protect,
     authController.restrictTo("driver", "superAdmin"),
     orderController.createOrder
   );
 router
-  .route("/get-consumers-with-gallons-after-date")
+  .route("/get-consumers-with-gallons-after-date/:date")
   .get(
     authController.protect,
     authController.restrictTo("driver", "superAdmin"),

@@ -17,6 +17,7 @@ const consumerSchema = new mongoose.Schema(
     phoneNumber: {
       type: String,
       required: true,
+      set: (value) => value.replace(/\s+/g, ""), // Uklanjanje razmaka prije validacije
       validate: {
         validator: function (el) {
           return validator.isMobilePhone(el, "bs-BA");
@@ -40,10 +41,22 @@ const consumerSchema = new mongoose.Schema(
     gallonBalance: {
       type: Number,
       default: 0,
+      min: [0, "Dugovanje galona ne može biti negativan broj"],
+    },
+    upayedGallons: {
+      type: Number,
+      default: 0,
+      min: [0, "Neplaćeni galoni ne može biti negativan broj"],
+    },
+    orderedGallons: {
+      type: Number,
+      default: 0,
     },
   },
   { timestamps: true }
 );
+
+// Middleware za uklanjanje razmaka iz broja telefona
 
 const Consumer = mongoose.model("Consumer", consumerSchema);
 

@@ -6,10 +6,20 @@ const appError = require("../utils/appError");
 
 exports.createOrder = catchAsync(async (req, res, next) => {
   const order = await Order.create(req.body);
+  const orderPopulated = await Order.findById(order._id).populate({
+    path: "consumerId",
+    select: "firstName lastName gallonBalance", // Specify the fields you want to retrieve
+  });
+  console.log(order.consumerId);
+
+  await Consumer.findOneAndUpdate(
+    { _id: order.consumerId },
+    { $inc: { orderedGallons: order.gallonsTaken } }
+  );
   res.status(201).json({
     status: "success",
     data: {
-      order,
+      orderPopulated,
     },
   });
 });
@@ -71,6 +81,7 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
   const balance = order.gallonsTaken - order.gallonsReturned;
 
   consumer.gallonBalance -= balance;
+  consumer.orderedGallons -= order.gallonsTaken;
   await consumer.save();
   await Order.findByIdAndDelete(req.params.id);
   res.status(200).json({
@@ -79,52 +90,10 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
   });
 });
 
-// exports.kanisteri = catchAsync(async (req, res, next) => {
-//   const startDate = new Date("2024-10-10T10:01:06.858Z");
-//   const result = await Order.aggregate([
-//     // 1. trazimo sve ordere vece ili iste od startDate
-//     {
-//       $match: {
-//         createdAt: { $gte: startDate },
-//       },
-//     },
-//     //2. povezivanje svake narudzbe sa korisnicima tj consumersima
-//     {
-//       $lookup: {
-//         from: "consumers",
-//         localField: "consumerId",
-//         foreignField: "_id",
-//         as: "consumer",
-//       },
-//     },
-//     {
-//       $unwind: "$consumer",
-//     },
-//     {
-//       $group: {
-//         _id: "$consumerId", // pravi grupu po korisniku
-//         totalGallons: { $sum: "$gallonsTaken" }, // sabira kanistere
-//         firstName: { $first: "$consumer.firstName" },
-//         lastName: { $first: "$consumer.lastName" },
-//         address: { $first: "$consumer.address" },
-//         phoneNumber: { $first: "$consumer.phoneNumber" },
-//         gallonBalance: { $first: "$consumer.gallonBalance" },
-//       },
-//     },
-//     {
-//       $sort: {
-//         totalGallons: -1,
-//       },
-//     },
-//   ]);
-//   res.status(200).json({
-//     status: "success",
-//     data: result,
-//   });
-// });
 exports.getConsumersWithGallonsAfterDate = catchAsync(
   async (req, res, next) => {
-    const startDate = new Date("2024-10-11T19:00:00.858Z");
+    const startDate = new Date(req.params.date);
+    console.log(startDate);
 
     const result = await Consumer.aggregate([
       // 1. trazimo sve korisnike i povezujemo sa orderima
@@ -151,6 +120,7 @@ exports.getConsumersWithGallonsAfterDate = catchAsync(
           lastName: { $first: "$lastName" },
           address: { $first: "$address" },
           phoneNumber: { $first: "$phoneNumber" },
+          createdAt: { $first: "$createdAt" },
           // 4. Sumiramo kanistere samo ako je narudžba nakon datuma, inače 0
           orderedGallons: {
             $sum: {
