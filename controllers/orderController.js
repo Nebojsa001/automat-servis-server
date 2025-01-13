@@ -14,7 +14,12 @@ exports.createOrder = catchAsync(async (req, res, next) => {
 
   await Consumer.findOneAndUpdate(
     { _id: order.consumerId },
-    { $inc: { orderedGallons: order.gallonsTaken } }
+    {
+      $inc: {
+        orderedGallons: order.gallonsTaken,
+        totalSpent: order.gallonsTaken * 12.5,
+      },
+    }
   );
   res.status(201).json({
     status: "success",
@@ -82,6 +87,7 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
 
   consumer.gallonBalance -= balance;
   consumer.orderedGallons -= order.gallonsTaken;
+  consumer.totalSpent -= order.gallonsTaken * 12.5;
   await consumer.save();
   await Order.findByIdAndDelete(req.params.id);
   res.status(200).json({
