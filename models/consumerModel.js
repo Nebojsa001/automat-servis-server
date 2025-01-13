@@ -18,12 +18,15 @@ const consumerSchema = new mongoose.Schema(
       type: String,
       required: true,
       set: (value) => value.replace(/\s+/g, ""), // Uklanjanje razmaka prije validacije
-      validate: {
-        validator: function (el) {
-          return validator.isMobilePhone(el, "bs-BA");
-        },
-        message: "Neispravan broj telefona",
-      },
+      // validate: {
+      //   validator: function (el) {
+      //     // Regex za mobilne i fiksne brojeve u BiH
+      //     const phoneRegex = /^(?:\+387|00387|0)(6\d{1}\d{6}|3\d{1}\d{6})$/;
+      //     return phoneRegex.test(el); // Validacija telefonskog broja
+      //   },
+      //   message:
+      //     "Neispravan broj telefona. Prihvaćeni su mobilni i fiksni brojevi u BiH.",
+      // },
     },
     city: {
       type: String,
