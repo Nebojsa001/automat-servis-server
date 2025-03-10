@@ -6,18 +6,10 @@ const appError = require("../utils/appError");
 // const sendEmail = require("./../utils/email");
 
 exports.createConsumer = catchAsync(async (req, res, next) => {
-  const {
-    firstName,
-    lastName,
-    phoneNumber,
-    companyName,
-    city,
-    address,
-    watherDispenser,
-  } = req.body;
+  const { userName, phoneNumber, companyName, city, address, watherDispenser } =
+    req.body;
   const consumer = await Consumer.create({
-    firstName,
-    lastName,
+    userName,
     phoneNumber,
     companyName,
     city,

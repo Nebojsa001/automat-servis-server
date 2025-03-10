@@ -8,7 +8,7 @@ exports.createOrder = catchAsync(async (req, res, next) => {
   const order = await Order.create(req.body);
   const orderPopulated = await Order.findById(order._id).populate({
     path: "consumerId",
-    select: "firstName lastName gallonBalance", // Specify the fields you want to retrieve
+    select: "userName gallonBalance", // Specify the fields you want to retrieve
   });
   console.log(order.consumerId);
 
@@ -37,7 +37,7 @@ exports.getAllOrders = catchAsync(async (req, res, next) => {
     .paginate();
   const orders = await features.query.populate(
     "consumerId",
-    "firstName lastName gallonBalance"
+    "userName gallonBalance"
   );
   res.status(200).json({
     status: "success",
@@ -122,8 +122,7 @@ exports.getConsumersWithGallonsAfterDate = catchAsync(
       {
         $group: {
           _id: "$_id", // Grupiše po ID-u potrošača
-          firstName: { $first: "$firstName" },
-          lastName: { $first: "$lastName" },
+          userName: { $first: "$userName" },
           address: { $first: "$address" },
           phoneNumber: { $first: "$phoneNumber" },
           createdAt: { $first: "$createdAt" },

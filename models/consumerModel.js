@@ -3,11 +3,7 @@ const validator = require("validator");
 
 const consumerSchema = new mongoose.Schema(
   {
-    firstName: {
-      type: String,
-      required: true,
-    },
-    lastName: {
+    userName: {
       type: String,
       required: true,
     },
@@ -16,17 +12,8 @@ const consumerSchema = new mongoose.Schema(
     },
     phoneNumber: {
       type: String,
-      required: true,
+      //required: true,
       set: (value) => value.replace(/\s+/g, ""), // Uklanjanje razmaka prije validacije
-      // validate: {
-      //   validator: function (el) {
-      //     // Regex za mobilne i fiksne brojeve u BiH
-      //     const phoneRegex = /^(?:\+387|00387|0)(6\d{1}\d{6}|3\d{1}\d{6})$/;
-      //     return phoneRegex.test(el); // Validacija telefonskog broja
-      //   },
-      //   message:
-      //     "Neispravan broj telefona. Prihvaćeni su mobilni i fiksni brojevi u BiH.",
-      // },
     },
     city: {
       type: String,

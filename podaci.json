@@ -1,0 +1,1258 @@
+[
+  {
+    "city": "Brod",
+    "__EMPTY_1": 1,
+    "userName": "AMD ŠPED",
+    "phoneNumber": "065/235-876",
+    "address": "C. TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 2,
+    "userName": "AMDTB (ASA)",
+    "phoneNumber": "053/621-402",
+    "address": "P.P. NJEGOŠA 125",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 3,
+    "userName": "ADDICO BANKA (AQUA TIM)",
+    "address": "SV. SAVE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 4,
+    "userName": "AUTOPRAONA",
+    "address": "STADIONSKA 2",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 5,
+    "userName": "ANTIĆ NIKOLA ",
+    "phoneNumber": "065/199-702",
+    "address": "TRGA PATRIJARJA PAVLA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 6,
+    "userName": "BAČIĆ RISTO",
+    "phoneNumber": "065/303-102",
+    "address": "SIJEKOVAC bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 7,
+    "userName": "BARDAK MIHAJLO",
+    "phoneNumber": "065/971-609",
+    "address": "NEV. ŽRTAVA 4",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 8,
+    "userName": "BARDAK SLAVIŠA",
+    "phoneNumber": "065/345-982",
+    "address": "ĐAČKA 6",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 9,
+    "userName": "BRČKO GAS OS",
+    "phoneNumber": "053/490-114",
+    "address": "KP I OSLOBODIOCA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 10,
+    "userName": "BARDAK SINIŠA",
+    "phoneNumber": "066/233-651",
+    "address": "BORAČKA 15",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 11,
+    "userName": "BRADARIĆ SADBELA",
+    "phoneNumber": "060/338-2330",
+    "address": "LAMELA C/III",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 12,
+    "userName": "BEKEZIĆ MILENKO",
+    "phoneNumber": "066/610-109",
+    "address": "TRG 7.OKTOBRA 10",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 13,
+    "userName": "BLUE ŠPED",
+    "phoneNumber": "053/610-428",
+    "address": "C.TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 14,
+    "userName": "B-PHARM APOTEKA",
+    "phoneNumber": "053/612-517",
+    "address": "SV.SAVE bb (D2)",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 15,
+    "userName": "Brod PRPMET",
+    "phoneNumber": "053/621-320",
+    "address": "B.BATALJONA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 16,
+    "userName": "BORAČKA ORGANIZACIJA",
+    "phoneNumber": "053/610-628",
+    "address": "STARA ŠKOLA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 17,
+    "userName": "VASIĆ ZORAN",
+    "phoneNumber": "066/476-278",
+    "address": "LIJEŠĆE 220a",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 18,
+    "userName": "VASIĆ DŽENANA",
+    "phoneNumber": "065/586-849",
+    "address": "VIDOVDANSKA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 19,
+    "userName": "VIDIĆ SAŠA",
+    "phoneNumber": "065/870-626",
+    "address": "IVE ANDRIĆA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 20,
+    "userName": "VIDIĆ DRAGIŠA",
+    "phoneNumber": "065/524-222",
+    "address": "B. BATALJONA/PEKARA",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 21,
+    "userName": "VESELINOVIĆ DANIJEL",
+    "phoneNumber": "065/195-780",
+    "address": "B. BATALJONA 99",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 22,
+    "userName": "VIDIĆ TANJA",
+    "phoneNumber": "066/535-612",
+    "address": "Ž. MIŠIĆA 115",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 23,
+    "userName": "VESELINOVIĆ GORDANA ",
+    "phoneNumber": "066/437-079",
+    "address": "SEMBERSKA 2",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 24,
+    "userName": "GRABOVAC ALEKSANDAR",
+    "phoneNumber": "065/715-679",
+    "address": "OZRENSKA 7",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 25,
+    "userName": "DUJANIĆ STANA",
+    "phoneNumber": "066/976-290",
+    "address": "M. JUGOVIĆA 165",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 26,
+    "userName": "DRUGOVIĆ SVETOZAR",
+    "phoneNumber": "065/971-608",
+    "address": "STADIONSKA 107",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 27,
+    "userName": "DEJO COLOR/MITRIĆ DEJAN",
+    "phoneNumber": "065/015-266",
+    "address": "KP I OSLOBODIOCA/LIJEŠĆE",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 28,
+    "userName": "DURONJIĆ MARIJANA",
+    "phoneNumber": "066/253-101",
+    "address": "PP NJEGOŠA 163",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 29,
+    "userName": "DAMJANOVIĆ SAVO",
+    "phoneNumber": "065/566-413",
+    "address": "STARI METAL EMAJL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 30,
+    "userName": "DUNAV OSIGURANJE",
+    "phoneNumber": "065/610-987",
+    "address": "KR. BRIGADA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 31,
+    "userName": "DM MONTAŽA",
+    "phoneNumber": "053/681-118",
+    "address": "B.BATALJONA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 32,
+    "userName": "ĐUKIĆ (SUBAŠIĆ) TAJANA",
+    "phoneNumber": "065/031-330",
+    "address": "STADIONSKA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 33,
+    "userName": "ĐUKIĆ PETAR",
+    "phoneNumber": "066/318-916",
+    "address": "STARI METAL EMAJL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 34,
+    "userName": "ĐILAS GORAN",
+    "phoneNumber": "066/955-056",
+    "address": "KP I OSLOBODIOCA 161",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 35,
+    "userName": "ĐORĐEVIĆ NEBOJŠA",
+    "phoneNumber": "065/535-559",
+    "address": "B.BATALJONA 13",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 36,
+    "userName": "ĐORĐEVIĆ PATRIK",
+    "phoneNumber": "066/932-419",
+    "address": "ĐURE JAKŠIĆA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 37,
+    "userName": "EVĐENIĆ PETKO",
+    "phoneNumber": "053/612-450",
+    "address": "V.M. ĐUJIĆA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 38,
+    "userName": "EXCLUSIVE HOME",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 39,
+    "userName": "EGRAD DOO TESLIĆ",
+    "phoneNumber": "065/400-449",
+    "address": "LIJEŠĆE EKONOMIJA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 40,
+    "userName": "ŽARIĆ SLOBODAN",
+    "phoneNumber": "066/959-345",
+    "address": "SKELE A1",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 41,
+    "userName": "ŽEPČAN FAHRUDIN",
+    "phoneNumber": "065/759-901",
+    "address": "KOLIBE 184",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 42,
+    "userName": "ZEČEVIĆ MITAR",
+    "phoneNumber": "065/767-657",
+    "address": "SAVE KOVAČEVIĆA 27",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 43,
+    "userName": "ZEČEVIĆ MLADEN",
+    "phoneNumber": "065/206-416",
+    "address": "BRANKA KOVAČEVIĆA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 44,
+    "userName": "ZEČEVIĆ RADE",
+    "phoneNumber": "066/722-904",
+    "address": "BR.BATALJONA 76",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 45,
+    "userName": "INTERMEDIKUS DR BORO",
+    "phoneNumber": "065/823-650",
+    "address": "STEVANA NEMANJE ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 46,
+    "userName": "INO ŠPED DOO",
+    "phoneNumber": "053/610-026",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "SVILAJ",
+    "__EMPTY_1": 47,
+    "userName": "INTERAGENT DOO",
+    "phoneNumber": "063/319-394",
+    "address": "GP SVILAJ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 48,
+    "userName": "ISIĆ DANIJELA",
+    "phoneNumber": "066/911-005",
+    "address": "KOLIBE GORNJE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 49,
+    "userName": "JAĆIMOVIĆ ŽELJKO (BECKO)",
+    "phoneNumber": "065/643-793",
+    "address": "KP I OSLOBODIOCA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 50,
+    "userName": "JAĆIMOVIĆ MIĆO",
+    "phoneNumber": "065/611-364",
+    "address": "ISIDORE SEKULIĆ 12",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 51,
+    "userName": "JAĆIMOVIĆ SNJEŽANA",
+    "phoneNumber": "065/276-962",
+    "address": "JOVANA RAŠKOVIĆA (DUGA)",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 52,
+    "userName": "JOVIČIĆ ROMANA (DUSA)",
+    "phoneNumber": "065/199-897",
+    "address": "GORNJI KLAKAR 209",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 53,
+    "userName": "JOKO DOO",
+    "phoneNumber": "053/610-883",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "SVILAJ",
+    "__EMPTY_1": 54,
+    "userName": "JOKO DOO",
+    "phoneNumber": "031/744-303",
+    "address": "GP SVILAJ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 55,
+    "userName": "JEFTIĆ SLAVICA",
+    "phoneNumber": "066/881-244",
+    "address": "LAMELE ULAZ 2",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 56,
+    "userName": "JAKUBOVIĆ SANJA",
+    "phoneNumber": "066/644-358",
+    "address": "V.R. PUTNIKA 1",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 57,
+    "userName": "JERKOVIĆ MIRELA",
+    "address": "VUKA KARDŽIĆA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 58,
+    "userName": "JANJIĆ GORDANA",
+    "phoneNumber": "065/235-439",
+    "address": "DONJI KLAKAR 15",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 59,
+    "userName": "JELIĆ BRANE",
+    "phoneNumber": "066/258-318",
+    "address": "LIJEŠĆE 235",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 60,
+    "userName": "JOKANOVIĆ SILVIO",
+    "phoneNumber": "066/086-101",
+    "address": "BRANKA KOVAČEVIĆA 4",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 61,
+    "userName": "JAĆIMOVIĆ VIOLETA",
+    "phoneNumber": "065/168-793",
+    "address": "V. GORANOVIĆA 19",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 62,
+    "userName": "KUŠLJIĆ NENA",
+    "phoneNumber": "065/335-571",
+    "address": "GORNJA MOČILA/SIJEKOVAC",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 63,
+    "userName": "KOVČEVIĆ LJUBINKA",
+    "phoneNumber": "066/745-377",
+    "address": "SRPSKIH JUNAKA 1",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 64,
+    "userName": "KRAMPITZ",
+    "phoneNumber": "053/611-221",
+    "address": "Z.J. JOVANOVIĆA 91",
+    "watherDispenser": 4
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 65,
+    "userName": "KNJIGOVODSTVENA AGENCIJA MB",
+    "phoneNumber": "053/611-986",
+    "address": "STAVANA SINĐELIĆA 20",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 66,
+    "userName": "KNJIGOVODSTVENA AGENCIJA AKT (K.BILJANA)",
+    "address": "TRG 7 OKTOBRA 8",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 67,
+    "userName": "KUŠLJIĆ MILOVAN",
+    "phoneNumber": "065/458-988",
+    "address": "BRANKA KOVAČEVIĆA 33",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 68,
+    "userName": "KUŠLJIĆ SNEŽANA",
+    "phoneNumber": "066/391-521",
+    "address": "B SKELE 2 ULAZ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 69,
+    "userName": "KRNDIJA DUŠICA ",
+    "address": "ZGRADA POŠTE BB",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 70,
+    "userName": "KOSTADINOVIĆ SLOBODAN",
+    "phoneNumber": "065/359-975",
+    "address": "SVETOG SAVE (IZA CVEJEĆARE)",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 71,
+    "userName": "KUŠLJIĆ HILMIJA (TV SERVIS)",
+    "address": "P.P. NJEGOŠA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 72,
+    "userName": "KUŠLJIĆ VANJA",
+    "phoneNumber": "066/959-434",
+    "address": "STADIONSKA 144",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 73,
+    "userName": "LAZIĆ DRAGIŠA",
+    "phoneNumber": "066/721-298",
+    "address": "STADIONSKA 137",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 74,
+    "userName": "LUKIĆ DRAGANA",
+    "phoneNumber": "066/133-154",
+    "address": "IVE ANDRIĆA 5",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 75,
+    "userName": "LA VUJKE-VUJIČIĆ LJUBIŠA",
+    "address": "SVETOG SAVE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 76,
+    "userName": "LUKIĆ RADA",
+    "address": "LIJEŠĆE 224",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 77,
+    "userName": "MAKSIĆ GORAN MAX",
+    "phoneNumber": "066/480-172",
+    "address": "15. SEPTEMBRA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 78,
+    "userName": "MARKOVIĆ MILETA",
+    "phoneNumber": "065/581-879",
+    "address": "KP I OSLOBODIOCA 115",
+    "watherDispenser": "1 I 1"
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 79,
+    "userName": "MASLIĆ MARKO",
+    "phoneNumber": "065/598-271",
+    "address": "15. SEPTEMBRA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 80,
+    "userName": "MILOSAVLJEVIĆ VOJO",
+    "phoneNumber": "065/544-140",
+    "address": "IVE ANDRIĆA 5",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 81,
+    "userName": "MOJA APOTEKA (TC FRUKTA)",
+    "phoneNumber": "066/112-359",
+    "address": "JOVANA DUČIĆA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 82,
+    "userName": "MILJIĆ MIRNA",
+    "phoneNumber": "066/189-028",
+    "address": "NOVI POLOJ bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 83,
+    "userName": "MARINKOVIĆ ŽELJO",
+    "phoneNumber": "065/636-643",
+    "address": "KP I OSLOBODIOCA/J.RAŠKOVIĆA",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 84,
+    "userName": "MEĐEDOVIĆ MARA",
+    "phoneNumber": "066/321-294",
+    "address": "MAJKE JUGOVIĆA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 85,
+    "userName": "MERIDIAN DOO",
+    "phoneNumber": "053/620-870",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "SVILAJ",
+    "__EMPTY_1": 86,
+    "userName": "MERIDIAN DOO SVILAJ",
+    "address": "GP SVILAJ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 87,
+    "userName": "MRGUDA DOO",
+    "phoneNumber": "053/610-339",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 88,
+    "userName": "MARIJANOVIĆ DRAGAN",
+    "phoneNumber": "066/525-750",
+    "address": "26. AVGUSTA (PIJACA)",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 89,
+    "userName": "MANDIĆ ANTO",
+    "phoneNumber": "065/605-123",
+    "address": "GRK 60 b",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 90,
+    "userName": "MILANOVIĆ MILADIN",
+    "address": "LIJEŠĆE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 91,
+    "userName": "MILANOVIĆ NEMANJA",
+    "phoneNumber": "066/705-662",
+    "address": "LIJEŠĆE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 92,
+    "userName": "MAKSIMOVIĆ ĐORĐE",
+    "phoneNumber": "065/698-865",
+    "address": "TRG 7 OKTOBRA 10",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 93,
+    "userName": "MATKOVIĆ LUKA",
+    "address": "OSTRVE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 94,
+    "userName": "MARINKOVIĆ ZDRAVKO",
+    "phoneNumber": "066/749-122",
+    "address": "ZBORIŠTE 28",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 95,
+    "userName": "MARINKOVIĆ BOJANA",
+    "address": "SKELE A1",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 96,
+    "userName": "MARKOVIĆ VESNA",
+    "phoneNumber": "065/287-436",
+    "address": "VINSKA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 97,
+    "userName": "MILIČIĆ VID (BRENA)",
+    "phoneNumber": "065/726-932",
+    "address": "LIJEŠĆE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "SVILAJ",
+    "__EMPTY_1": 98,
+    "userName": "MIT ŠPED DOO",
+    "phoneNumber": "065/682-433",
+    "address": "GP SVILAJ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 99,
+    "userName": "NOVA BANKA",
+    "phoneNumber": "065/447-042",
+    "address": "TRG PATRIJARHA PAVLA/J.RAŠKOVIĆA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 100,
+    "userName": "NEŠIĆ MILIVOJE",
+    "phoneNumber": "065/184-725",
+    "address": "DONJA BARICA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 101,
+    "userName": "NESTOROVIĆ DRAGAN/MITO",
+    "phoneNumber": "065/540-172",
+    "address": "VUKA KARDŽIĆA",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 102,
+    "userName": "NESTRO PETROL",
+    "phoneNumber": "065/585-230",
+    "address": "KOD RAFINERIJE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 103,
+    "userName": "NINKOVIĆ MILOVAN",
+    "phoneNumber": "066/682-907",
+    "address": "MILANA RADIĆA 4",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 104,
+    "userName": "OPTIMA ŠPED DOO",
+    "phoneNumber": "053/612-122",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 105,
+    "userName": "POPOVIĆ ZORAN",
+    "phoneNumber": "066/030-024",
+    "address": "IVE ANDRIĆA 10",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 106,
+    "userName": "PANTIĆ SRETO (SPORAN)",
+    "phoneNumber": "065/061-049",
+    "address": "NOVO NASELJE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 107,
+    "userName": "PAP ALAN",
+    "phoneNumber": "066/251-663",
+    "address": "IVE ANDRIĆA 4",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 108,
+    "userName": "PIVAŠ TRIVO",
+    "phoneNumber": "065/386-794",
+    "address": "LIJEŠĆE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 109,
+    "userName": "PLAVŠIĆ SANDRA",
+    "phoneNumber": "065/610-235",
+    "address": "IVE ANDRIĆA 5",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 110,
+    "userName": "PETRUŠIĆ BRANISLAV",
+    "phoneNumber": "065/877-609",
+    "address": "SVETOG SAVE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 111,
+    "userName": "PLEHANDŽIĆ SUZANA",
+    "phoneNumber": "066/304-790",
+    "address": "KOLIBE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 112,
+    "userName": "PLAVA ZVIJEZDA DOO",
+    "phoneNumber": "053/610-671",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 113,
+    "userName": "PANIĆ TIHOMIR",
+    "phoneNumber": "066/172-914",
+    "address": "KAMENIČKA 11",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 114,
+    "userName": "PEJČIĆ OLIVERA",
+    "phoneNumber": "060/400-0941",
+    "address": "LIJEŠĆE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 115,
+    "userName": "PLAVŠIĆ MIRJANA",
+    "phoneNumber": "065/535-619",
+    "address": "LAMELE B",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 116,
+    "userName": "PETROVIĆ SRĐAN",
+    "address": "BR. BATALJONA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 117,
+    "userName": "RADIŠIĆ MIĆO",
+    "phoneNumber": "066/190-872",
+    "address": "BRANKA KOVAČEVIĆA 6",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 118,
+    "userName": "RIM ŠPED DOO",
+    "phoneNumber": "053/612-655",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 119,
+    "userName": "RD COMPANY DOO",
+    "phoneNumber": "053/610-646",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 120,
+    "userName": "ROAD DOO (TARZAN)",
+    "phoneNumber": "065/997-450",
+    "address": "ZBORIŠTE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 121,
+    "userName": "RUŽOJČIĆ ŽELJO",
+    "phoneNumber": "065/634-387",
+    "address": "ZBORIŠTE bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 122,
+    "userName": "RADIŠKOVIĆ SLOBODAN",
+    "address": "V.M. ĐUJIĆA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 123,
+    "userName": "SUŠIĆ MATO (NADA)",
+    "phoneNumber": "053/611-463",
+    "address": "MIHAJLA PUPINA 1",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 124,
+    "userName": "SUBAŠIĆ SAŠA",
+    "phoneNumber": "065/020-903",
+    "address": "IVE ANDRIĆA 4",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 125,
+    "userName": "SUŠAK ZLATKO",
+    "phoneNumber": "065/965-936",
+    "address": "MAJKE JUGOVIĆA 8",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 126,
+    "userName": "ST KOMERC",
+    "phoneNumber": "065/249-025",
+    "address": "V.S. STEPANOVIĆA",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 127,
+    "userName": "SEBASTIJANOVIĆ DUŠAN",
+    "phoneNumber": "065/957-699",
+    "address": "KP I OSLOBODIOCA 254",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 128,
+    "userName": "STJEPANOVIĆ SAŠA",
+    "phoneNumber": "066/742-783",
+    "address": "DONJI KLAKAR ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 129,
+    "userName": "SIM PROM DOO",
+    "phoneNumber": "053/612-154",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 130,
+    "userName": "SRIJEMAC DRAGAN",
+    "phoneNumber": "065/021-221",
+    "address": "LIJEŠĆE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 131,
+    "userName": "SUBAŠIĆ SNEŽANA",
+    "phoneNumber": "065/323-376",
+    "address": "LUGOVI",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 132,
+    "userName": "STANKOVIĆ SIMO",
+    "phoneNumber": "065/910-832",
+    "address": "BRANKA RADIČEVIĆA 9",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 133,
+    "userName": "SIMIĆ SRĐAN (BULLS)",
+    "phoneNumber": "066/347-111",
+    "address": "STEVNA NEMANJE (NIKS)",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 134,
+    "userName": "SPAHIĆ MUHAREM",
+    "phoneNumber": "063/021-156",
+    "address": "KOLIBE 109 A",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 135,
+    "userName": "SRIJEMAC DRAGO",
+    "address": "LIJEŠĆE",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 136,
+    "userName": "TEŠANOVIĆ SERVIS I KUĆA",
+    "phoneNumber": "066/112-212",
+    "address": "BrodSKOG BATALJONA",
+    "watherDispenser": 3
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 137,
+    "userName": "TEŠANOVIĆ SLOBODAN",
+    "address": "MAJKE JUGOVIĆA 187",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 138,
+    "userName": "TEŠANOVIĆ RADMILA",
+    "phoneNumber": "066/772-967",
+    "address": "SKELE H/15",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 139,
+    "userName": "TEODOSIĆ RAJKO",
+    "phoneNumber": "066/095-875",
+    "address": "STARI METAL EMAJL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 140,
+    "userName": "TRANSAGENT DOO",
+    "phoneNumber": "061/224-967",
+    "address": "CARINSKI TERMINAL",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 141,
+    "userName": "TOMIČEVIĆ GLIGOR",
+    "phoneNumber": "066/836-774",
+    "address": "STEVANA SINĐELIĆA 20",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 142,
+    "userName": "TOMIČEVIĆ NADA ST",
+    "address": "ŽIVOJINA MIŠIĆA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 143,
+    "userName": "TOMIČEVIĆ TANJA",
+    "address": "MAHALA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 144,
+    "userName": "TANASIĆ DRAGAN",
+    "address": "SKELE E",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 145,
+    "userName": "ĆATIĆ ELVIN",
+    "phoneNumber": "065/999-770",
+    "address": "26. AVGUSTA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 146,
+    "userName": "ĆERIĆ TANJA",
+    "phoneNumber": "065/381-787",
+    "address": "SIJEKOVAC ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 147,
+    "userName": "UDRUŠENJE KORAK NADE",
+    "phoneNumber": "053/613-100",
+    "address": "STARA ŠKOLA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 148,
+    "userName": "FRIZERSKI SALON SANDRA",
+    "phoneNumber": "066/959-345",
+    "address": "JOVANA RAŠKOVIĆA ",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 149,
+    "userName": "CARINA MOST",
+    "phoneNumber": "053/612-010",
+    "address": "KR. BRIGADA bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 150,
+    "userName": "CRKVA (Brod,SIJEKOVAC)",
+    "phoneNumber": "066/682-922",
+    "address": "Brod, SIJEKOVAC",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 151,
+    "userName": "CIBOS",
+    "phoneNumber": "053/621-511",
+    "address": "V.S. STEPANOVIĆA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 152,
+    "userName": "CVJETKOVIĆ SAŠA",
+    "phoneNumber": "065/212-702",
+    "address": "ĐAČKA 7",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 153,
+    "userName": "CVJETKOVIĆ GORANA",
+    "address": "V.S. STEPANOVIĆA",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 154,
+    "userName": "ČIKOJA SLAVICA",
+    "address": "SKELE G2",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 155,
+    "userName": "ŠEHAGIĆ SLAVKA",
+    "address": "KEJ bb",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 156,
+    "userName": "ŠAINOVIĆ STEFAN",
+    "phoneNumber": "065/632-170",
+    "address": "MAHALA ULAZ B",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 157,
+    "userName": "ŠAINOVIĆ ŽELJKO",
+    "phoneNumber": "065/368-526",
+    "address": "MAJKE JUGOVIĆA 14",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 158,
+    "userName": "ŠUKURMA NATALIJA",
+    "phoneNumber": "066/795-417",
+    "address": "KP I OSLOBODIOCA 117",
+    "watherDispenser": 1
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 159,
+    "userName": "ŠENKER DOO",
+    "phoneNumber": "053/490-455",
+    "address": "CT Brod, CT GRADIŠKA",
+    "watherDispenser": 2
+  },
+  {
+    "city": "Brod",
+    "__EMPTY_1": 160,
+    "userName": "ŠUKURMA MIROSLAV",
+    "phoneNumber": "065/789-889",
+    "address": "SKELE D",
+    "watherDispenser": 1
+  }
+]
