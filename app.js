@@ -15,6 +15,18 @@ const globalErrorHandler = require("./controllers/errorController");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.get("/", (req, res) => {
+  console.log(req);
+
+  const authorizationCode = req.query.code;
+  console.log(authorizationCode);
+  //res.send("Hello, welcome to the PhotoFeedback API!"); // Poruka koju ćete videti na localhost:3000
+  res.status(200).json({
+    message: "Hello, welcome to the PhotoFeedback API!",
+    code: authorizationCode,
+  });
+});
+
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/consumer", consumerRouter);
 app.use("/api/v1/order", orderRouter);

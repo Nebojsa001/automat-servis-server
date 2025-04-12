@@ -12,8 +12,7 @@ const consumerSchema = new mongoose.Schema(
     },
     phoneNumber: {
       type: String,
-      //required: true,
-      set: (value) => value.replace(/\s+/g, ""), // Uklanjanje razmaka prije validacije
+      default: "nema broja",
     },
     city: {
       type: String,
